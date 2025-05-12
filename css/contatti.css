@@ -1,6 +1,7 @@
 /* Sezione Contatti */
 .contact-page .contact-section {
     padding: 80px 0;
+    color: #000; /* testi neri */
 }
 
 /* Titolo H1 */
@@ -12,9 +13,9 @@
     transform: translateY(20px);
     animation: titleReveal 1s ease forwards;
     animation-delay: 0.3s;
-    color: #ffcc00;
-    text-transform: uppercase; 
-    font-family: 'Kumbh Sans', sans-serif; 
+    color: #ffcc00 !important;
+    text-transform: uppercase;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 /* Animazione Fade-in */
@@ -39,19 +40,20 @@
     padding: 0 15px;
 }
 
-/* Card nere */
+/* Card gialle */
 .contact-page .map-card,
 .contact-page .info-card {
-    background: #000;
+    background: #ffcc00;
     border-radius: 15px;
     padding: 30px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     transition: transform 0.4s ease, box-shadow 0.4s ease;
     opacity: 0;
     animation: fadeIn 1s ease-out forwards;
+    color: #000; /* testo nero */
 }
 
-/* Hover animazione potente */
+/* Hover potente */
 .contact-page .map-card:hover,
 .contact-page .info-card:hover {
     transform: translateY(-15px) scale(1.05) rotateZ(0.5deg);
@@ -73,12 +75,12 @@
     margin-bottom: 20px;
     display: flex;
     align-items: center;
-    color: #fff;
+    color: #000;
 }
 
 .contact-page .section-title i {
     margin-right: 10px;
-    color: #fff;
+    color: #000;
 }
 
 /* Mappa responsive */
@@ -111,24 +113,26 @@
     opacity: 0;
     transform: translateY(20px);
     animation: fadeIn 1s ease-out forwards;
+    color: #000;
 }
 
 .contact-page .info-item i {
     font-size: 1.4rem;
     justify-self: center;
-    color: #fff;
+    color: #000;
 }
 
 .contact-page .info-item p,
 .contact-page .info-item a {
     margin: 0;
-    color: #fff;
+    color: #000;
     font-size: 1.1rem;
 }
 
 .contact-page .info-item a {
     text-decoration: none;
     transition: text-decoration 0.3s;
+    color: #000;
 }
 
 .contact-page .info-item a:hover {
@@ -136,17 +140,10 @@
 }
 
 /* Ritardi animazione info */
-.contact-page .info-item:nth-child(1) {
-    animation-delay: 0.7s;
-}
-
-.contact-page .info-item:nth-child(2) {
-    animation-delay: 0.9s;
-}
-
-.contact-page .info-item:nth-child(3) {
-    animation-delay: 1.1s;
-}
+.contact-page .info-item:nth-child(1) { animation-delay: 0.7s; }
+.contact-page .info-item:nth-child(2) { animation-delay: 0.9s; }
+.contact-page .info-item:nth-child(3) { animation-delay: 1.1s; }
+.contact-page .info-item:nth-child(4) { animation-delay: 1.3s; }
 
 /* Responsive */
 @media (max-width: 767px) {
@@ -154,4 +151,16 @@
         grid-template-columns: 1fr;
         gap: 30px;
     }
+}
+
+/* Animazione paragrafi */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

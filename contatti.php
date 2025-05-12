@@ -1,3 +1,39 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Contatti</title>
+ 
+  <style>
+  .map-card,
+  .info-card {
+    background-color: #ffcc00 !important;
+    color: #000 !important;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition:
+      transform 0.6s cubic-bezier(0.25, 1, 0.5, 1),
+      box-shadow 0.6s cubic-bezier(0.25, 1, 0.5, 1),
+      filter 0.3s ease-out;
+    will-change: transform, box-shadow;
+  }
+
+  .map-card:hover,
+  .info-card:hover {
+    transform: translateY(-22px) scale(1.025) rotateZ(0.3deg);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.35);
+    filter: brightness(1.03) contrast(1.05);
+  }
+
+  /* Testi neri in modo forzato */
+  .map-card *,
+  .info-card * {
+    color: #000 !important;
+  }
+</style>
+
+</head>
 <body class="contact-page">
   <!-- Contact Section -->
   <section id="contatti" class="contact-section">
@@ -62,17 +98,4 @@
     </div>
   </section>
 </body>
-
-<!-- Animazione CSS per i paragrafi -->
-<style>
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-</style>
+</html>
