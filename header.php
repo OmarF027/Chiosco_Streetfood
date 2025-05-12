@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/eventi.css">
+    <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/contatti.css">
     <link rel="stylesheet" href="css/mediaqueries.css">
 
@@ -35,7 +35,7 @@
     <nav class="navigation" id="main-navigation">
         <ul>
         <li><a href="#home">Home</a></li>
-        <li><a href="#eventi">Menù</a></li>
+        <li><a href="#menù">Menù</a></li>
         <li><a href="#contatti">Contatti</a></li>
         </ul>
     </nav>

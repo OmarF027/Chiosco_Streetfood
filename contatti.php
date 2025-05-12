@@ -2,17 +2,17 @@
   <!-- Contact Section -->
   <section id="contatti" class="contact-section">
     <div class="contact-header">
-      <h1 style="font-size: 3rem; color: #000; font-weight: bold; text-align: center; margin-bottom: 40px; opacity: 1 !important; animation: fadeIn 2s forwards !important; animation-delay: 0.2s; text-shadow: none !important;">Contatti</h1>
+      <h1>Contatti</h1>
 
-      <p style="max-width: 800px; margin: 0 auto; font-size: 1.2em; line-height: 1.6; color: #333; padding-bottom: 20px; opacity: 0; animation: fadeInUp 1s 2s forwards;">
+      <p style="max-width: 800px; margin: 0 auto; font-size: 1.2em; line-height: 1.6; color: #ffffff; padding-bottom: 20px; opacity: 0; animation: fadeInUp 1s 2s forwards;">
         <strong>Hai voglia di street food vero?</strong>
       </p>
 
-      <p style="max-width: 800px; margin: 0 auto; font-size: 1.2em; line-height: 1.6; color: #333; padding-bottom: 20px; opacity: 0; animation: fadeInUp 1s 2s forwards;">
+      <p style="max-width: 800px; margin: 0 auto; font-size: 1.2em; line-height: 1.6; color: #ffffff; padding-bottom: 20px; opacity: 0; animation: fadeInUp 1s 2s forwards;">
         Contattaci per informazioni, prenotazioni o per sapere quando siamo aperti. Hamburger, hot-dog e lampredotto ti aspettano ogni giorno!
       </p>
 
-      <p style="max-width: 800px; margin: 0 auto; font-size: 1.2em; line-height: 1.6; color: #333; padding-bottom: 40px; opacity: 0; animation: fadeInUp 1s 2s forwards;">
+      <p style="max-width: 800px; margin: 0 auto; font-size: 1.2em; line-height: 1.6; color: #ffffff; padding-bottom: 40px; opacity: 0; animation: fadeInUp 1s 2s forwards;">
         Se sei un’organizzazione e vuoi ospitarci per un evento locale o privato, siamo felici di ascoltare la tua proposta.
       </p>
     </div>
