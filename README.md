@@ -1,0 +1,1 @@
+Questo sito vetrina è stato creato per un chiosco street food e sviluppato con HTML, CSS, PHP e JavaScript. È progettato per mostrare in modo elegante e semplice le specialità offerte, con un design responsivo che assicura un’esperienza ottimale su tutti i dispositivi.
