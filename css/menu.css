@@ -112,44 +112,54 @@ body {
 
 /* Responsività per dispositivi */
 @media (max-width: 768px) {
+    /* Rendi la grid una colonna su dispositivi più piccoli */
     .grid {
         grid-template-columns: 1fr 1fr;
     }
 
+    /* Adatta il titolo */
     .sezione h2 {
         font-size: 2em;
     }
 
+    /* Adatta le immagini */
     .item img {
         height: 250px;
     }
 
+    /* Adatta i titoli delle card */
     .item h3 {
         font-size: 1.6em;
     }
 
+    /* Adatta i paragrafi delle card */
     .item p {
         font-size: 1em;
     }
 }
 
 @media (max-width: 480px) {
+    /* Rendi la grid una singola colonna su dispositivi ancora più piccoli */
     .grid {
         grid-template-columns: 1fr;
     }
 
+    /* Adatta il titolo */
     .sezione h2 {
         font-size: 1.6em;
     }
 
+    /* Adatta le immagini */
     .item img {
         height: 200px;
     }
 
+    /* Adatta i titoli delle card */
     .item h3 {
         font-size: 1.4em;
     }
 
+    /* Adatta i paragrafi delle card */
     .item p {
         font-size: 0.9em;
     }

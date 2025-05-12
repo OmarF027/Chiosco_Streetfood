@@ -81,8 +81,8 @@
           <div class="info-item">
             <i class="fas fa-clock"></i>
             <p><strong>Orari di apertura:</strong><br>
-              Lunedì – Venerdì: 12:00 – 15:00 / 18:00 – 22:30<br>
-              Sabato e Domenica: 12:00 – 23:00
+              Lunedì – Venerdì: 12:00 – 15:00 / 18:00 – 20:30<br>
+              Sabato e Domenica: 12:00 – 15:00
             </p>
           </div>
           <div class="info-item">
