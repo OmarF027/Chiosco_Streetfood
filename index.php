@@ -18,7 +18,7 @@
            text-align: left;
            display: block;">
         <strong>Lo street food come piace a te, nel cuore di Grosseto!</strong><br>
-        Siamo sempre qui, pronti a servirti <strong>hamburger succulenti</strong>, <strong>hot-dog gustosi</strong> e il mitico <strong>lampredotto</strong>, preparati con ingredienti freschi e tanta passione.
+        Siamo sempre qui, pronti a servirti <strong>hamburger di alta qualità</strong>, <strong>hot-dog con insaccati artigianali</strong> e il mitico <strong>lampredotto</strong>, preparati con ingredienti freschi e tanta passione.
     </p>
 </div>
 
